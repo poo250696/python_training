@@ -1,13 +1,14 @@
-# 0 + 1 => 1
-# 1 + 2 => 3
-# 2 + 3 => 5
-# 3 + 4 => 7
-
 start = 0
-# second = 1
-sum = 0
-for i in range(1, 10):
-    sum = start + i
-    start = i
-    print(sum)
+sum = 1
+even = 0
+while True:
+    sum = start + sum
+    start = sum - start
+    if sum % 2 == 0:
+        even += sum
+    if sum > 4000000:
+        break
+
+print("Total Sum:", sum)
+print("Sum of even values:", even)
 
