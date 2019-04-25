@@ -9,6 +9,6 @@ while True:
     if sum > 4000000:
         break
 
-print("Total Sum:", sum)
+# print("Total Sum:", sum)
 print("Sum of even values:", even)
 
