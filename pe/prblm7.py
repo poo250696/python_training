@@ -24,6 +24,6 @@ def prime_numbers(max_prime_numbers):
         number += 1
     return number
 
-
-print(int(prime_numbers(10001)))
+if __name__ == "__main__":
+    print(int(prime_numbers(10001)))
 
