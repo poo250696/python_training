@@ -28,7 +28,7 @@ def palindrome_str(default_str):
         pal_str = default_str[i] + pal_str
     return pal_str
 
-
+print(__name__)
 if __name__ == "__main__":
     number = 909
     pal = palindrome_num(number)

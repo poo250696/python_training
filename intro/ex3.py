@@ -1,3 +1,7 @@
+# - *- coding: utf- 8 - *-
+
+import pprint
+
 # This like starts program by writing message
 print("I will now count my chickens:")
 
@@ -36,3 +40,6 @@ print("Is is greater or equal?", 5.0 >= -2.0)
 print("Is it less or equal?", 5.0 <= -2.0)
 
 # This is with floating point numbers
+
+a = {'ajscbdjbcal': 1, 'bsadvas': 2, 'asdvsdac': {'dsdava': 3, 'e': {'asdvdsf': 3}, 'f': 'ldvnklabjbdas'}, 'g': 'ksdnjva oc '}
+pprint.pprint(a)
